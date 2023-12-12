@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "gif_searcher",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+             "--dart-define=GIPHY_API_KEY=bmw1rd2FRB9kdDSBH6Z4tDWTqh3j2KoJ"
+            ]
+        },
+        {
+            "name": "gif_searcher (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "gif_searcher (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
